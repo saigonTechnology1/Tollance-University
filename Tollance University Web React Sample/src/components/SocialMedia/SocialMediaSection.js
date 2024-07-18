@@ -11,7 +11,7 @@ const SocialMediaSection = () => {
       }}
       //   style={{ backgroundImage: `url(/assets/images/university-students.jpg)` }}
     >
-      <div className="row g-0">
+      {/* <div className="row g-0">
         <div className="col-xl-3 col-md-6 col-12">
           <SocialComponent
             title="YouTube"
@@ -40,7 +40,7 @@ const SocialMediaSection = () => {
             buttonText="Follow Handle"
           />
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }

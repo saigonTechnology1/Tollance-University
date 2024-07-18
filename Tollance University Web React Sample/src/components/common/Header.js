@@ -22,7 +22,7 @@ export const Header = () => {
       >
         <div className="tl-8-top-header">
           <div className="container">
-            <div className="row justify-content-center">
+            <div className="row">
               <div className="col-lg-8">
                 <ul className="tl-8-top-header-contacts">
                   <li>
@@ -44,7 +44,7 @@ export const Header = () => {
                 </ul>
               </div>
 
-              <div className="col-lg-4">
+              {/* <div className="col-lg-4">
                 <ul className="tl-8-top-header-socials">
                   <li>
                     <a href="https://twitter.com/" target="_blank">
@@ -62,7 +62,7 @@ export const Header = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@ export const Header = () => {
                 </div>
               </div>
 
-              <div className="col-xxl-5 col-7">
+              <div className="col-xxl-10 col-7">
                 <div className="tl-nav-menu tl-4-nav-menu">
                   <Menu />
                 </div>
@@ -109,7 +109,7 @@ export const Header = () => {
 
               <div className="col-3 d-lg-block d-none">
                 <div className="tl-header-actions d-flex justify-content-end">
-                  <form
+                  {/* <form
                     action="#"
                     className="tl-nav-search-form tl-4-nav-search-form"
                   >
@@ -122,7 +122,7 @@ export const Header = () => {
                     <button className="tl-searh-btn">
                       <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
-                  </form>
+                  </form> */}
                 </div>
               </div>
             </div>

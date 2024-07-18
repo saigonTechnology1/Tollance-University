@@ -1,18 +1,26 @@
-import React from 'react'
-import {
-    Link, useLocation
-} from "react-router-dom";
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 export const Menu = () => {
-    return (
-            <ul className="justify-content-center">
-                <li className="tl-nav-item">
-                    <Link to='/' role="button">
-                        Home
-                    </Link>
-                </li>
+  return (
+    <ul className="justify-content-center">
+      <li className="tl-nav-item">
+        <Link to="/" role="button">
+          Home
+        </Link>
+      </li>
+      <li className="tl-nav-item">
+        <Link to="/acdemic" role="button">
+          Academic
+        </Link>
+      </li>
+      <li className="tl-nav-item">
+        <Link to="/result" role="button">
+          Result
+        </Link>
+      </li>
 
-                <li className="tl-nav-item">
+      {/* <li className="tl-nav-item">
                     <Link to='/research' role="button">
                         Research
                     </Link>
@@ -28,7 +36,7 @@ export const Menu = () => {
                     <Link to='/transfer' role="button">
                         Transfer
                     </Link>
-                </li>
-            </ul>
-    )
-}
+                </li> */}
+    </ul>
+  );
+};

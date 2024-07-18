@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { Carousel } from 'react-responsive-carousel'
-import homeCarouselContent from './content'
+import React from "react";
+import { Link } from "react-router-dom";
+import { Carousel } from "react-responsive-carousel";
+import homeCarouselContent from "./content";
 
 const HomeCarousel = () => {
   return (
@@ -29,10 +29,10 @@ const HomeCarousel = () => {
                       <h6 className="tl-4-banner-sub-title">{content.label}</h6>
                       <h1 className="tl-4-banner-title">{content.title}</h1>
                       <p className="tl-4-banner-descr">{content.description}</p>
-                      <Link to={content.link} className="tl-4-banner-btn">
-                        {content.linkLabel}{' '}
+                      {/* <Link to={content.link} className="tl-4-banner-btn">
+                        {content.linkLabel}{" "}
                         <i class="fa-solid fa-angles-right"></i>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
@@ -44,7 +44,7 @@ const HomeCarousel = () => {
 
       <div className="tl-4-banner-slider-dots"></div>
     </section>
-  )
-}
+  );
+};
 
-export default HomeCarousel
+export default HomeCarousel;
