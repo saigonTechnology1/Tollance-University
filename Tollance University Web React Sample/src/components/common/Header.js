@@ -45,7 +45,7 @@ export const Header = () => {
               </div>
 
               <div className="col-lg-4">
-                <ul className="tl-8-top-header-socials">
+                {/* <ul className="tl-8-top-header-socials">
                   <li>
                     <a href="https://twitter.com/" target="_blank">
                       <i className="fa-brands fa-twitter"></i>
@@ -61,7 +61,7 @@ export const Header = () => {
                       <i className="fa-brands fa-linkedin-in"></i>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
@@ -108,7 +108,7 @@ export const Header = () => {
               <div className="col-xxl-1 d-xxl-block d-none"></div>
 
               <div className="col-3 d-lg-block d-none">
-                <div className="tl-header-actions d-flex justify-content-end">
+                {/* <div className="tl-header-actions d-flex justify-content-end">
                   <form
                     action="#"
                     className="tl-nav-search-form tl-4-nav-search-form"
@@ -123,7 +123,7 @@ export const Header = () => {
                       <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
                   </form>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -198,7 +198,7 @@ export const Header = () => {
                       </span>
                     </a>
                     <nav class="mean-nav">
-                      <Menu />
+                      {/* <Menu /> */}
                     </nav>
                   </div>
                 </div>

@@ -5,6 +5,7 @@ import {
 
 export const Menu = () => {
     return (
+    
             <ul className="justify-content-center">
                 <li className="tl-nav-item">
                     <Link to='/' role="button">
@@ -30,5 +31,6 @@ export const Menu = () => {
                     </Link>
                 </li>
             </ul>
+            
     )
 }

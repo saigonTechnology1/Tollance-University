@@ -63,7 +63,7 @@ const UniversityDetails = () => {
                 </div>
               </div>
 
-              <div className="tl-4-about-txt-bottom">
+              {/* <div className="tl-4-about-txt-bottom">
                 <Link to="/leadership" className="tl-def-btn tl-4-def-btn">
                   More Details <i class="fa-solid fa-angles-right"></i>
                 </Link>
@@ -83,7 +83,7 @@ const UniversityDetails = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
