@@ -15,9 +15,7 @@ const CampusLifeSection = () => {
             <h2 className="tl-5-section-title">
               Campus Life Revolves Around Academic Pursuits.
             </h2>
-            <Link to="/transfer" className="tl-def-btn-2">
-              More Information <i class="fa-solid fa-angles-right"></i>
-            </Link>
+            {/* Removed the More Information button as per Screen shot */}
           </div>
         </div>
         <div className="col-xxl-4 col-lg-3">

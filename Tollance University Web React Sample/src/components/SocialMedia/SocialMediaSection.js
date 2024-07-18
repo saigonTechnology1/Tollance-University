@@ -11,31 +11,32 @@ const SocialMediaSection = () => {
       }}
       //   style={{ backgroundImage: `url(/assets/images/university-students.jpg)` }}
     >
+      {/* Remove the title form the Social component as per Screen shot */}
       <div className="row g-0">
         <div className="col-xl-3 col-md-6 col-12">
           <SocialComponent
-            title="YouTube"
+            title=""
             description="Nulla lacinia velit at nisl volutpat placerat. Fusce at elit id orci molestie iaculis eget eget metus. Donec purus est, porttitor at lacus sit amet."
             buttonText="Subscribe Channel"
           />
         </div>
         <div className="col-xl-3 col-md-6 col-12">
           <SocialComponent
-            title="Facebook"
+            title=""
             description="Nulla lacinia velit at nisl volutpat placerat. Fusce at elit id orci molestie iaculis eget eget metus. Donec purus est, porttitor at lacus sit amet."
             buttonText="Like Page"
           />
         </div>
         <div className="col-xl-3 col-md-6 col-12">
           <SocialComponent
-            title="Instagram"
+            title=""
             description="Nulla lacinia velit at nisl volutpat placerat. Fusce at elit id orci molestie iaculis eget eget metus. Donec purus est, porttitor at lacus sit amet."
             buttonText="Follow Account"
           />
         </div>
         <div className="col-xl-3 col-md-6 col-12">
           <SocialComponent
-            title="Twitter"
+            title=""
             description="Nulla lacinia velit at nisl volutpat placerat. Fusce at elit id orci molestie iaculis eget eget metus. Donec purus est, porttitor at lacus sit amet."
             buttonText="Follow Handle"
           />

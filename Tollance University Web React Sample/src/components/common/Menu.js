@@ -12,21 +12,17 @@ export const Menu = () => {
                     </Link>
                 </li>
 
-                <li className="tl-nav-item">
-                    <Link to='/research' role="button">
-                        Research
-                    </Link>
-                </li>
+                {/* Add the Academic and Result Link insted of Study and Transfer  */}
+                {/* Also I create those two pase with content is coming soon... */}
 
                 <li className="tl-nav-item">
-                    <Link to='/study' role="button">
-                        Study
+                    <Link to='/academic' role="button">
+                        Academic
                     </Link>
                 </li>
-
                 <li className="tl-nav-item">
-                    <Link to='/transfer' role="button">
-                        Transfer
+                    <Link to='/result' role="button">
+                        Result
                     </Link>
                 </li>
             </ul>

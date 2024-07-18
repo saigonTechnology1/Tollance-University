@@ -62,28 +62,7 @@ const UniversityDetails = () => {
                   </div>
                 </div>
               </div>
-
-              <div className="tl-4-about-txt-bottom">
-                <Link to="/leadership" className="tl-def-btn tl-4-def-btn">
-                  More Details <i class="fa-solid fa-angles-right"></i>
-                </Link>
-
-                <div className="tl-4-about-support">
-                  <img
-                    src="assets/images/tl-4/support.png"
-                    alt="support icon"
-                  />
-                  <div>
-                    <span className="tl-4-about-support-txt">Get Support</span>
-                    <a
-                      href="mailto:info@gmail.com"
-                      className="tl-4-about-support-mail"
-                    >
-                      info.tollenseuniversity@gmail.com
-                    </a>
-                  </div>
-                </div>
-              </div>
+              {/* Remove the "More Details" button and support email section as per the Screen shot  */}
             </div>
           </div>
         </div>

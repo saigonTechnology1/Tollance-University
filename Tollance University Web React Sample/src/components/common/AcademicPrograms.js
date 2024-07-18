@@ -70,12 +70,7 @@ export const AcademicPrograms = () => {
                 />
                 <div className="tl-4-program-txt">
                   <p className="tl-4-program-descr">{program.description}</p>
-                  <button
-                    onClick={() => handleMoreDetails(program)}
-                    className="tl-4-program-btn"
-                  >
-                    Learn More <i className="fa-solid fa-angles-right"></i>
-                  </button>
+                  {/* Removed the Learn More button as Per Screen shot */}
                 </div>
               </div>
             </div>

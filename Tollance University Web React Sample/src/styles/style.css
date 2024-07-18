@@ -1805,9 +1805,7 @@ textarea::placeholder {
   width: 100%;
   z-index: -1;
   height: 15px;
-  background-image: url(/public/assets/images/tl/line.png);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
+  /* Remove the yellow line from the title as per Screen shot */
 }
 
 .kidba-menu-sidebar {
@@ -16521,7 +16519,8 @@ textarea::placeholder {
 }
 
 .tl-4-blog-img {
-  margin-bottom: -70px;
+  /* remove the margin bottom  because image is overflow from the border */
+  /* margin-bottom: -70px; */
   position: relative;
   flex-shrink: 0;
 }

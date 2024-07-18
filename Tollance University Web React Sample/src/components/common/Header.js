@@ -44,25 +44,7 @@ export const Header = () => {
                 </ul>
               </div>
 
-              <div className="col-lg-4">
-                <ul className="tl-8-top-header-socials">
-                  <li>
-                    <a href="https://twitter.com/" target="_blank">
-                      <i className="fa-brands fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <i className="fa-brands fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i className="fa-brands fa-linkedin-in"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              {/* Remove the Social Media Icon from the Header as par the screen shot */}
             </div>
           </div>
         </div>
@@ -107,24 +89,7 @@ export const Header = () => {
 
               <div className="col-xxl-1 d-xxl-block d-none"></div>
 
-              <div className="col-3 d-lg-block d-none">
-                <div className="tl-header-actions d-flex justify-content-end">
-                  <form
-                    action="#"
-                    className="tl-nav-search-form tl-4-nav-search-form"
-                  >
-                    <input
-                      type="search"
-                      name="Search"
-                      className="tl-nav-search"
-                      placeholder="Search items"
-                    />
-                    <button className="tl-searh-btn">
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                  </form>
-                </div>
-              </div>
+              {/* Here is the Search Box that I am removed as per screen shot */}
             </div>
           </div>
         </div>
