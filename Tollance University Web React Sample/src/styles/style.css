@@ -53,6 +53,7 @@ CSS INDEX
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
+  --green:#00825a;
   --tl-btn-bg: #f4b826;
   --black: #17161c;
   --white: #fff;
@@ -23605,6 +23606,11 @@ a.tl-footer-number {
   .tl-2-footer-widget-2 {
     border-right: 1px dashed rgba(255, 255, 255, 0.14);
   }
+  /* Updated this New class added 18 july 2024 */
+  .tl-4-copyright-txt {
+    font-size:14px;
+  }
+  /* Updated this New class added 18 july 2024 */
 }
 
 @media screen and (max-width: 991px) {
@@ -23748,10 +23754,12 @@ a.tl-footer-number {
   background-color: var(--tl-btn-bg);
 }
 
-.tl-4-footer {
-  background: var(--white);
-  color: rgba(23, 22, 28, 0.6);
+/* Updated this class 18 july 2024 */
+.tl-4-footer {  
+  background: var(--green);
+  color: rgba(255, 255, 255, 0.8);
 }
+/* Updated this class 18 july 2024 */
 
 .tl-4-footer-descr {
   color: rgba(44, 44, 44, 0.7);
@@ -23761,11 +23769,11 @@ a.tl-footer-number {
 .tl-4-footer-widget-title {
   color: var(--black);
 }
-
+/* Updated this class 18 july 2024 */
 .tl-4-footer-links a {
-  color: rgba(23, 22, 28, 0.6);
+  color: rgba(255, 255, 255, 0.8);
 }
-
+/* Updated this class 18 july 2024 */
 .tl-4-footer-links a:hover {
   color: var(--red-2);
 }
