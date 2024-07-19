@@ -15,19 +15,13 @@ export const Menu = () => {
 
                 <li className="tl-nav-item">
                     <Link to='/research' role="button">
-                        Research
+                    Academics 
                     </Link>
                 </li>
 
                 <li className="tl-nav-item">
                     <Link to='/study' role="button">
-                        Study
-                    </Link>
-                </li>
-
-                <li className="tl-nav-item">
-                    <Link to='/transfer' role="button">
-                        Transfer
+                    Result
                     </Link>
                 </li>
             </ul>
