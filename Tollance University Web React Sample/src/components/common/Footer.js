@@ -8,10 +8,10 @@ export const Footer = () => {
         <div className="tl-footer-top">
           <div className="container">           
             {/* New Required Footer start here */}
-             <div className="row gy-5 justify-content-between align-items-center">
+             <div className="row gy-5 align-items-center">
               <div className="col-lg-4 order-lg-1 order-3">
                 <div className="tl-footer-widget tl-4-footer-widget">                  
-                  <p className="tl-4-copyright-txt m-0 text-center text-lg-left">
+                  <p className="tl-4-copyright-txt m-0 text-center text-lg-start">
                     ©2024 Tollense University 
                   </p>
                 </div>
@@ -26,7 +26,7 @@ export const Footer = () => {
                 </div>
                 <div className="col-lg-4 order-2 order-lg-3">
                 <div className="tl-footer-widget tl-4-footer-widget">                  
-                <ul className="tl-footer-links tl-4-footer-links flex-row justify-content-center">
+                <ul className="tl-footer-links tl-4-footer-links flex-row justify-content-center justify-content-lg-end">
                         <li>
                           <Link to="/" role="button">
                             Home
