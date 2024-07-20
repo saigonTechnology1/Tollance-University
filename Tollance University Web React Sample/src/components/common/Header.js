@@ -81,8 +81,8 @@ export const Header = () => {
                   <div className="col-lg-12 col-6">
                     <div className="logo">
                       <Link to="/">
-                        <img
-                          src="assets/images/logos/logo-3-light.png"
+                        <img className='logo-change'
+                          src="assets/images/logos/Tollance_University_Logo-removebg-preview.png "
                           alt="KIDBA"
                         />
                       </Link>
@@ -99,7 +99,7 @@ export const Header = () => {
                 </div>
               </div>
 
-              <div className="col-xxl-5 col-7">
+              <div className="col-xxl-6 col-7">
                 <div className="tl-nav-menu tl-4-nav-menu">
                   <Menu />
                 </div>

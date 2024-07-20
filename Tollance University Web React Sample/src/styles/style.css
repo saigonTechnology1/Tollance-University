@@ -79,6 +79,232 @@ CSS INDEX
 }
 
 /*----- -----*/
+.logo-changes{
+  mix-blend-mode: multiply;
+}
+
+.Admission {
+  font-family:roboto;
+  max-width: 450px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 3px solid #ccc;
+  border-radius: 15px;
+
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+/* .grand-admission{
+  max-height: 50%;
+} */
+
+
+.Admission h6 {
+  text-align: left;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.admission-form .form-group {
+  margin-bottom: 15px;
+}
+
+.admission-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.visib  {
+  text-align: center !important;
+  margin-left: 30%;
+}
+.admission-form input[type="text"],
+.admission-form select,
+.admission-form input[type="file"],
+.admission-form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.admission-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.admission-form .form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.admission-form .form-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admission-form .form-buttons button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.admission-form .form-buttons button[type="button"] {
+  background-color: #f44336;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+}
+
+
+/* ----drag and drop---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+} */
+.form-container {
+	width: 100vw;
+	height: 100vh;
+	background-color: #7b2cbf;
+	display: flex;
+   	justify-content: center;
+	align-items: center;
+}
+.upload-files-container {
+	background-color: #f7fff7;
+	width: 420px;
+	padding: 30px 60px;
+	border-radius: 40px;
+	display: flex;
+   	align-items: center;
+   	justify-content: center;
+	flex-direction: column;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 20px, rgba(0, 0, 0, 0.28) 0px 6px 6px;
+}
+
+.drag-file-area {
+	border: 2px dashed green;
+  border-top-style: none;
+  border-right-style: dashed ;
+  border-bottom-style: none;
+  border-left-style: dashed;
+	/* border-radius: 40px; */
+	margin: 10px 0 15px;
+	padding: 30px 50px;
+	width: auto;
+	text-align: center;
+  background-color:lightcyan ;
+}
+.file-size-text{
+  font-size: 11px;
+  color: grey;
+  margin-top: -16px;
+}
+.drag-file-area .upload-icon {
+	width: 10%;
+}
+.drag-file-area h3 {
+	font-size: 26px;
+	margin: 15px 0;
+}
+.drag-file-area label {
+	font-size: 19px;
+}
+.drag-text {
+	color: red;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.browse-files span {
+	position: relative;
+	top: -25px;
+}
+.default-file-input {
+	opacity: 0;
+}
+.cannot-upload-message {
+	background-color: #ffc6c4;
+	font-size: 17px;
+	display: flex;
+	align-items: center;
+	margin: 5px 0;
+	padding: 5px 10px 5px 30px;
+	border-radius: 5px;
+	color: #BB0000;
+	display: none;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.cannot-upload-message span, .upload-button-icon {
+	padding-right: 10px;
+}
+.cannot-upload-message span:last-child {
+	padding-left: 20px;
+	cursor: pointer;
+}
+.file-block {
+	color: #f7fff7;
+	background-color: #7b2cbf;
+  	transition: all 1s;
+	width: 390px;
+	position: relative;
+	display: none;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0 15px;
+	padding: 10px 20px;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.file-info {
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+}
+.file-icon {
+	margin-right: 10px;
+}
+.file-name, .file-size {
+	padding: 0 3px;
+}
+.remove-file-icon {
+	cursor: pointer;
+}
+.progress-bar {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	left: 4.5%;
+	width: 0;
+	height: 5px;
+	border-radius: 25px;
+	background-color: #4BB543;
+}
+.upload-button {
+	font-family: 'Montserrat';
+	background-color: #7b2cbf;
+	color: #f7fff7;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	border: none;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 7.5px 50px;
+	cursor: pointer;
+}
 
 /*----- GLOABL -----*/
 
@@ -26429,3 +26655,72 @@ a.tl-footer-number {
 }
 
 /*# sourceMappingURL=style.css.map */
+.transcript-root {
+  padding: 4em;
+}
+
+.transcript-main {
+  width: 65%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 2em 0;
+}
+
+.transcript-header h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.enroll-no h6 {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.enroll-no input {
+  font-size: 12px;
+  outline: .5px solid grey;
+  border-radius: 5px;
+  padding: 1em;
+  width: 25vw;
+}
+.search-icon {
+  position: relative;
+}
+
+.search-icon img {
+  position: absolute;
+  right: .8em;
+  top: .6em;
+  width: 1.2em;
+  object-fit: cover;
+}
+
+.transcript-table {
+  width: 92.5%;
+}
+
+.transcript-table h6 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.transcript-table table {
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: white;
+  padding-right: 1.8em;
+}
+
+table tr {
+  border: 1px solid #ddd;
+}
+.sem-bold {
+  font-weight:bold;
+}

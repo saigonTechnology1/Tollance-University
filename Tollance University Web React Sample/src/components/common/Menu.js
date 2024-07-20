@@ -11,6 +11,18 @@ export const Menu = () => {
                         Home
                     </Link>
                 </li>
+                
+                <li className="tl-nav-item">
+                    <Link to='/admission' role="button">
+                        Admission
+                    </Link>
+                </li>
+
+                <li className="tl-nav-item">
+                    <Link to='/transcript' role="button">
+                        Transcript
+                    </Link>
+                </li>
 
                 <li className="tl-nav-item">
                     <Link to='/research' role="button">

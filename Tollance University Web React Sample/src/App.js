@@ -8,6 +8,8 @@ import { Transfer } from './pages/Transfer'
 import { Leadership } from './pages/Leadership'
 import { Footer } from './components/common/Footer'
 import { DetailsPages } from './components/common/DetailsPages'
+import Admission from './pages/Admission'
+import Transcript from './pages/Transcript'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Header />
       <Routes>
         <Route index path="/" element={<Index />}></Route>
+        <Route index path="/admission" element={<Admission/>}></Route>
+        <Route index path="/transcript" element={<Transcript/>}></Route>
         <Route path="/research" element={<Research />}></Route>
         <Route path="/study" element={<Study />}></Route>
         <Route path="/transfer" element={<Transfer />}></Route>

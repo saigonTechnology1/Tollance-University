@@ -20,7 +20,7 @@ export const Footer = () => {
               <div className="col-lg-4 order-1 order-lg-2">
                     <div className="tl-footer-widget tl-4-footer-widget text-center">
                       <Link to="/" className="logo tl-footer-widget-title mb-0">
-                      <img src="assets/images/logos/logo-3-light.png" alt="logo" />
+                      <img src="assets/images/logos/Tollance_University_Logo-removebg-preview.png" alt="logo" />
                       </Link>
                   </div>                  
                 </div>
@@ -30,6 +30,18 @@ export const Footer = () => {
                         <li>
                           <Link to="/" role="button">
                             Home
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link to="/admission" role="button">
+                            Admission
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link to="/transcript" role="button">
+                            Transcript
                           </Link>
                         </li>
 
