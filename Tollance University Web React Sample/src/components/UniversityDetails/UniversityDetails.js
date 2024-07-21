@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 
 const UniversityDetails = () => {
   return (
@@ -89,7 +88,7 @@ const UniversityDetails = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default UniversityDetails
+export default UniversityDetails;

@@ -1,9 +1,9 @@
-import React from 'react'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import { SampleNextArrow } from './SampleNextArrow'
-import { SamplePrevArrow } from './SamplePrevArrow'
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { SampleNextArrow } from "./SampleNextArrow";
+import { SamplePrevArrow } from "./SamplePrevArrow";
 
 export const TestimonialSection = () => {
   const testimonialSettings = {
@@ -15,7 +15,7 @@ export const TestimonialSection = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-  }
+  };
 
   const imageSettings = {
     slidesToShow: 1,
@@ -25,34 +25,34 @@ export const TestimonialSection = () => {
     autoplaySpeed: 3000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-  }
+  };
 
   const testimonials = [
     {
-      id: 'testimonial-1',
-      image: '/assets/images/back-view-teenage.jpg',
+      id: "testimonial-1",
+      image: "/assets/images/back-view-teenage.jpg",
       comment:
-        '“Universities offer a wide range of student organizations and clubs catering to diverse interests. These groups focus on hobbies, sports, cultural activities, social causes, academic interests, and more”',
-      author: 'Douglas Lyphe',
-      authorSuffix: 'Professor of Technology',
+        "“Universities offer a wide range of student organizations and clubs catering to diverse interests. These groups focus on hobbies, sports, cultural activities, social causes, academic interests, and more”",
+      author: "Douglas Lyphe",
+      authorSuffix: "Professor of Technology",
     },
     {
-      id: 'testimonial-2',
-      image: '/assets/images/social-media.jpg',
+      id: "testimonial-2",
+      image: "/assets/images/social-media.jpg",
       comment:
-        '“As a professor at Tollence University, I am continually impressed by the dedication and intellectual curiosity of our students. The academic environment fosters critical thinking, innovation, and collaboration, making teaching a truly rewarding experience.”',
-      author: 'Dr. Emily Parker',
-      authorSuffix: 'Professor of Technology',
+        "“As a professor at Tollence University, I am continually impressed by the dedication and intellectual curiosity of our students. The academic environment fosters critical thinking, innovation, and collaboration, making teaching a truly rewarding experience.”",
+      author: "Dr. Emily Parker",
+      authorSuffix: "Professor of Technology",
     },
     {
-      id: 'testimonial-3',
-      image: '/assets/images/graduates.jpg',
+      id: "testimonial-3",
+      image: "/assets/images/graduates.jpg",
       comment:
-        '“Tollence University offers a vibrant campus life that goes beyond the classroom. From engaging lectures to thought-provoking discussions, students are encouraged to explore their interests and pursue their passions.”',
-      author: 'Prof. David Lee',
-      authorSuffix: 'Professor of Technology',
+        "“Tollence University offers a vibrant campus life that goes beyond the classroom. From engaging lectures to thought-provoking discussions, students are encouraged to explore their interests and pursue their passions.”",
+      author: "Prof. David Lee",
+      authorSuffix: "Professor of Technology",
     },
-  ]
+  ];
 
   return (
     <section className="tl-5-testimonial">
@@ -98,5 +98,5 @@ export const TestimonialSection = () => {
         </Slider>
       </div>
     </section>
-  )
-}
+  );
+};

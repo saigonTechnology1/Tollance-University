@@ -1,42 +1,42 @@
-import React from 'react'
-import { Breadcrumb } from './Breadcrumb'
-import { Link, useLocation } from 'react-router-dom'
+import React from "react";
+import { Breadcrumb } from "./Breadcrumb";
+import { Link } from "react-router-dom";
 
 export const DetailsPages = () => {
-  const selectedClass = JSON.parse(sessionStorage.getItem('selectedClass'))
+  const selectedClass = JSON.parse(sessionStorage.getItem("selectedClass"));
   if (!selectedClass) {
-    return <div>No class selected</div>
+    return <div>No class selected</div>;
   }
 
   const latestArticles = [
     {
-      id: 'article-1',
-      link: '/transfer',
-      title: 'The Learning Revolution: Embracing Innovation in Education',
-      category: 'Education',
-      image: '/assets/images/tl-5/blog-1.jpg',
-      author: 'Hugh Millie-Yate',
-      publishedDate: 'Jan 24, 2023',
+      id: "article-1",
+      link: "/transfer",
+      title: "The Learning Revolution: Embracing Innovation in Education",
+      category: "Education",
+      image: "/assets/images/tl-5/blog-1.jpg",
+      author: "Hugh Millie-Yate",
+      publishedDate: "Jan 24, 2023",
     },
     {
-      id: 'article-2',
-      link: '/transfer',
-      title: 'The Value of Undergraduate Research Opportunities',
-      category: 'Research',
-      image: '/assets/images/tl-5/blog-2.jpg',
-      author: 'Hugh Millie-Yate',
-      publishedDate: 'Feb 24, 2023',
+      id: "article-2",
+      link: "/transfer",
+      title: "The Value of Undergraduate Research Opportunities",
+      category: "Research",
+      image: "/assets/images/tl-5/blog-2.jpg",
+      author: "Hugh Millie-Yate",
+      publishedDate: "Feb 24, 2023",
     },
     {
-      id: 'article-3',
-      link: '/transfer',
-      title: 'The Importance of Career Readiness Programs',
-      category: 'Career',
-      image: '/assets/images/tl-5/blog-3.jpg',
-      author: 'Hugh Millie-Yate',
-      publishedDate: 'Mar 24, 2023',
+      id: "article-3",
+      link: "/transfer",
+      title: "The Importance of Career Readiness Programs",
+      category: "Career",
+      image: "/assets/images/tl-5/blog-3.jpg",
+      author: "Hugh Millie-Yate",
+      publishedDate: "Mar 24, 2023",
     },
-  ]
+  ];
   return (
     <div>
       <Breadcrumb />
@@ -124,5 +124,5 @@ export const DetailsPages = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};

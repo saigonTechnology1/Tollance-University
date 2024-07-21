@@ -1,37 +1,37 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export const ResearchCard = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const classes = [
     {
-      image: 'assets/images/tl-4/innov-3.jpg',
-      iconSrc: 'assets/images/tl-4/innov-icon-1.png',
-      category: 'Health & Medicine',
+      image: "assets/images/tl-4/innov-3.jpg",
+      iconSrc: "assets/images/tl-4/innov-icon-1.png",
+      category: "Health & Medicine",
       title:
-        'Explore the latest advancements in health and medicine at Tollence University. From cutting-edge research to hands-on training, our programs equip students with the knowledge and skills to tackle real-world healthcare challenges. Join us and become a catalyst for positive change in the field of medicine.',
+        "Explore the latest advancements in health and medicine at Tollence University. From cutting-edge research to hands-on training, our programs equip students with the knowledge and skills to tackle real-world healthcare challenges. Join us and become a catalyst for positive change in the field of medicine.",
     },
     {
-      image: 'assets/images/tl-4/innov-2.jpg',
-      iconSrc: 'assets/images/tl-4/innov-icon-2.png',
-      category: 'Science & Technology',
+      image: "assets/images/tl-4/innov-2.jpg",
+      iconSrc: "assets/images/tl-4/innov-icon-2.png",
+      category: "Science & Technology",
       title:
         "Dive into the world of science and technology at Tollence University, where innovation knows no bounds. Our interdisciplinary approach fosters collaboration between students and faculty, driving groundbreaking discoveries and pushing the boundaries of what's possible. ",
     },
     {
-      image: 'assets/images/tl-4/innov-1.jpg',
-      iconSrc: 'assets/images/tl-4/innov-icon-3.png',
-      category: 'Culture & Creativity',
+      image: "assets/images/tl-4/innov-1.jpg",
+      iconSrc: "assets/images/tl-4/innov-icon-3.png",
+      category: "Culture & Creativity",
       title:
-        'Immerse yourself in the vibrant tapestry of culture and creativity at Tollence University. From the arts to humanities, our diverse programs celebrate the richness of human expression and foster creativity in all its forms. Join a community where innovation thrives, ideas flourish, and imagination knows no limits.',
+        "Immerse yourself in the vibrant tapestry of culture and creativity at Tollence University. From the arts to humanities, our diverse programs celebrate the richness of human expression and foster creativity in all its forms. Join a community where innovation thrives, ideas flourish, and imagination knows no limits.",
     },
-  ]
+  ];
 
   const handleMoreDetails = (classItem) => {
     // Store selected class details in sessionStorage
-    sessionStorage.setItem('selectedClass', JSON.stringify(classItem))
-    navigate('/details-page')
-  }
+    sessionStorage.setItem("selectedClass", JSON.stringify(classItem));
+    navigate("/details-page");
+  };
   return (
     <div className="row tl-7-classes-row">
       {classes.map((classItem, index) => (
@@ -57,5 +57,5 @@ export const ResearchCard = () => {
         </div>
       ))}
     </div>
-  )
-}
+  );
+};
