@@ -1,23 +1,23 @@
-import React, { useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
-import { Menu } from './Menu'
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { Menu } from "./Menu";
 
 export const Header = () => {
-  const [sidebarOpen, setSidebarOpen] = useState(false)
-  const location = useLocation()
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const location = useLocation();
 
   const openSidebar = () => {
-    setSidebarOpen(true)
-  }
+    setSidebarOpen(true);
+  };
 
   const closeSidebar = () => {
-    setSidebarOpen(false)
-  }
+    setSidebarOpen(false);
+  };
   return (
     <div>
       <div
         className={`tl-4-header red-clr position-stiky  ${
-          location.pathname === '/' ? '' : ' position-relative bg_dark'
+          location.pathname === "/" ? "" : " position-relative bg_dark"
         }`}
       >
         <div className="tl-8-top-header">
@@ -27,7 +27,7 @@ export const Header = () => {
                 <ul className="tl-8-top-header-contacts">
                   <li>
                     <a href="tel:12356877787">
-                      <i className="fa-solid fa-phone"></i> (88) 123 568 777 87{' '}
+                      <i className="fa-solid fa-phone"></i> (88) 123 568 777 87{" "}
                     </a>
                   </li>
                   <li>
@@ -37,7 +37,7 @@ export const Header = () => {
                     </a>
                   </li>
                   <li>
-                    {' '}
+                    {" "}
                     <i class="fa-solid fa-location-dot"></i> Oldenburg 26127,
                     Germany
                   </li>
@@ -45,7 +45,7 @@ export const Header = () => {
               </div>
 
               <div className="col-lg-4">
-                <ul className="tl-8-top-header-socials">
+                {/* <ul className="tl-8-top-header-socials">
                   <li>
                     <a href="https://twitter.com/" target="_blank">
                       <i className="fa-brands fa-twitter"></i>
@@ -61,7 +61,7 @@ export const Header = () => {
                       <i className="fa-brands fa-linkedin-in"></i>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
@@ -69,9 +69,9 @@ export const Header = () => {
 
         <div
           className={` ${
-            location.pathname === '/'
-              ? 'tl-4-bottom-header'
-              : 'tl-8-bottom-header'
+            location.pathname === "/"
+              ? "tl-4-bottom-header"
+              : "tl-8-bottom-header"
           }`}
         >
           <div className="container">
@@ -81,10 +81,7 @@ export const Header = () => {
                   <div className="col-lg-12 col-6">
                     <div className="logo">
                       <Link to="/">
-                        <img
-                          src="assets/images/logos/logo-3-light.png"
-                          alt="KIDBA"
-                        />
+                        <img src="assets/images/logos/logo-2.png" alt="KIDBA" className="w-100"/>
                       </Link>
                     </div>
                   </div>
@@ -108,7 +105,7 @@ export const Header = () => {
               <div className="col-xxl-1 d-xxl-block d-none"></div>
 
               <div className="col-3 d-lg-block d-none">
-                <div className="tl-header-actions d-flex justify-content-end">
+                {/* <div className="tl-header-actions d-flex justify-content-end">
                   <form
                     action="#"
                     className="tl-nav-search-form tl-4-nav-search-form"
@@ -123,14 +120,14 @@ export const Header = () => {
                       <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
                   </form>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
       </div>
       <div
-        className={`kidba-menu-sidebar ${sidebarOpen ? 'sidebar-open' : ''}`}
+        className={`kidba-menu-sidebar ${sidebarOpen ? "sidebar-open" : ""}`}
       >
         <div className="kidba-menu-sidebar-inner">
           <div className="sidebar__close">
@@ -149,7 +146,7 @@ export const Header = () => {
                 role="tablist"
               >
                 <button
-                  className={`nav-link ${sidebarOpen ? 'active' : ''}`}
+                  className={`nav-link ${sidebarOpen ? "active" : ""}`}
                   id="nav-menu-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#nav-menu"
@@ -161,7 +158,7 @@ export const Header = () => {
                   Menu
                 </button>
                 <button
-                  className={`nav-link ${!sidebarOpen ? 'active' : ''}`}
+                  className={`nav-link ${!sidebarOpen ? "active" : ""}`}
                   id="nav-info-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#nav-info"
@@ -183,7 +180,7 @@ export const Header = () => {
             </div>
             <div className="tab-content" id="nav-tabContent">
               <div
-                className={`tab-pane fade ${sidebarOpen ? 'show active' : ''}`}
+                className={`tab-pane fade ${sidebarOpen ? "show active" : ""}`}
                 id="nav-menu"
                 role="tabpanel"
                 aria-labelledby="nav-menu-tab"
@@ -197,14 +194,12 @@ export const Header = () => {
                         </span>
                       </span>
                     </a>
-                    <nav class="mean-nav">
-                      <Menu />
-                    </nav>
+                    <nav class="mean-nav">{/* <Menu /> */}</nav>
                   </div>
                 </div>
               </div>
               <div
-                className={`tab-pane fade ${!sidebarOpen ? 'show active' : ''}`}
+                className={`tab-pane fade ${!sidebarOpen ? "show active" : ""}`}
                 id="nav-info"
                 role="tabpanel"
                 aria-labelledby="nav-info-tab"
@@ -221,7 +216,7 @@ export const Header = () => {
                       </a>
                     </li>
                     <li>
-                      {' '}
+                      {" "}
                       <i class="fa-solid fa-location-dot"></i> Anmoore Road
                       Brooklyn, NY 230
                     </li>
@@ -256,5 +251,5 @@ export const Header = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

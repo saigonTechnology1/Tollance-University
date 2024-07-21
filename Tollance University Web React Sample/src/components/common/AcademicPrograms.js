@@ -51,7 +51,6 @@ export const AcademicPrograms = () => {
         <h2 className="tl-4-section-title">
           Academic <span className="last-word">programs</span>
         </h2>
-
         <div className="row g-4 tl-4-programs-row">
           {programs.map((program) => (
             <div key={program.id} className="col-lg-4 col-md-6">
@@ -70,12 +69,12 @@ export const AcademicPrograms = () => {
                 />
                 <div className="tl-4-program-txt">
                   <p className="tl-4-program-descr">{program.description}</p>
-                  <button
+                  {/* <button
                     onClick={() => handleMoreDetails(program)}
                     className="tl-4-program-btn"
                   >
                     Learn More <i className="fa-solid fa-angles-right"></i>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

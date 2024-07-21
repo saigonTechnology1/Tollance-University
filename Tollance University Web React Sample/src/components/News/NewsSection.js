@@ -34,9 +34,9 @@ const NewsSection = () => {
                   discussing its advantages, challenges, and the potential it
                   holds for democratizing access to quality education worldwide.
                 </p>
-                <Link className="tl-single-blog-btn" to="/transfer">
+                {/* <Link className="tl-single-blog-btn" to="/transfer">
                   Read More <i class="fa-solid fa-angles-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -64,9 +64,9 @@ const NewsSection = () => {
                   the importance of intercultural competence, global
                   perspectives, and international collaboration.
                 </p>
-                <Link className="tl-single-blog-btn" to="/transfer">
+                {/* <Link className="tl-single-blog-btn" to="/transfer">
                   Read More <i class="fa-solid fa-angles-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

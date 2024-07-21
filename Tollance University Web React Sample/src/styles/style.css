@@ -53,7 +53,7 @@ CSS INDEX
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
-  --green:#00825a;
+  --green: #00825a;
   --tl-btn-bg: #f4b826;
   --black: #17161c;
   --white: #fff;
@@ -259,7 +259,36 @@ textarea::placeholder {
   animation: fadeIn 1s ease;
   background-color: var(--white) !important;
 }
+.admission-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
 
+.admission-form div {
+  margin-bottom: 10px;
+}
+
+.admission-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.admission-form input,
+.admission-form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-buttons button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
 @keyframes fadeIn {
   0% {
     top: -100%;
@@ -286,7 +315,60 @@ textarea::placeholder {
 .outer-container {
   margin: 0 50px;
 }
+.form-btn {
+  width: 40% !important;
+  border-radius: 20px 20px 20px 20px !important;
+  padding: 6px 43px !important;
+  border: none !important;
+  background-color: white !important;
+}
+.submit-Btn {
+  background-color: #e4003a !important;
+}
+.custom-position {
+  bottom: -84% !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  height: 500px !important;
+  background-attachment: fixed;
+  /* background-position: 50% 50%; */
 
+  background-size: cover;
+  /* margin: 0 auto; */
+}
+.z-index-999 {
+  z-index: 999;
+}
+.box-shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px!important;
+}
+
+.textarea.form-control {
+  resize: none !important;
+}
+.files-ui-footer,
+.files-ui-header {
+  display: none !important;
+}
+.uploadfile-bg {
+  background-color: #e8f7fb !important;
+  border-bottom: 1px dashed #053819 !important;
+  border-top: none !important;
+}
+.upload-icon {
+  padding: 10px !important;
+  font-size: 51px !important;
+  border-radius: 50% !important;
+}
+.custom-position-transcript {
+  bottom: -259% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    height: 510px !important;
+    background-attachment: fixed;
+    /* background-position: 50% 50%; */
+    background-size: cover;
+}
 @media screen and (max-width: 1399px) {
   .outer-container {
     margin: 0;
@@ -1806,7 +1888,7 @@ textarea::placeholder {
   width: 100%;
   z-index: -1;
   height: 15px;
-  background-image: url(/public/assets/images/tl/line.png);
+  /* background-image: url(/public/assets/images/tl/line.png); */
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -21524,18 +21606,18 @@ textarea::placeholder {
   margin-bottom: 28px;
 }
 
-.tl-4-social-btn {
+/* .tl-4-social-btn {
   color: var(--white);
   overflow: hidden;
   transition: 0.4s ease;
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 6px 30px;
-}
+} */
 
-.tl-4-social-btn:hover {
+/* .tl-4-social-btn:hover {
   background-color: var(--red-2);
   border-color: var(--red-2);
-}
+} */
 
 .tl-6-social-btn {
   color: var(--white);
@@ -23608,7 +23690,7 @@ a.tl-footer-number {
   }
   /* Updated this New class added 18 july 2024 */
   .tl-4-copyright-txt {
-    font-size:14px;
+    font-size: 14px;
   }
   /* Updated this New class added 18 july 2024 */
 }
@@ -23755,7 +23837,7 @@ a.tl-footer-number {
 }
 
 /* Updated this class 18 july 2024 */
-.tl-4-footer {  
+.tl-4-footer {
   background: var(--green);
   color: rgba(255, 255, 255, 0.8);
 }

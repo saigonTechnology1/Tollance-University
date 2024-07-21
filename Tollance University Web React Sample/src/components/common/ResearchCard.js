@@ -46,12 +46,12 @@ export const ResearchCard = () => {
               </div>
               <h3 className="tl-7-class-name">{classItem.category}</h3>
               <p className="tl-7-class-descr">{classItem.title}</p>
-              <button
+              {/* <button
                 onClick={() => handleMoreDetails(classItem)}
                 className="tl-7-class-btn"
               >
                 More Details <i className="fa-solid fa-angles-right"></i>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
