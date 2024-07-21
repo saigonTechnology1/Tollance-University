@@ -1,5 +1,4 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
 
 const CampusLifeSection = () => {
   return (
@@ -27,7 +26,7 @@ const CampusLifeSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default CampusLifeSection
+export default CampusLifeSection;
