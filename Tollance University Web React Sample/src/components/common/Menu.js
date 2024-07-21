@@ -9,19 +9,7 @@ export const Menu = () => {
           Home
         </Link>
       </li>
-
-      <li className="tl-nav-item">
-        <Link to="/research" role="button">
-          Research
-        </Link>
-      </li>
-
-      <li className="tl-nav-item">
-        <Link to="/study" role="button">
-          Study
-        </Link>
-      </li>
-
+    
       <li className="tl-nav-item">
         <Link to="/admission" role="button">
           Admission

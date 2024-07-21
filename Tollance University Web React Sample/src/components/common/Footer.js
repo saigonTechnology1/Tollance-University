@@ -7,12 +7,11 @@ export const Footer = () => {
       <footer className="tl-footer tl-4-footer">
         <div className="tl-footer-top">
           <div className="container">
-            {/* New Required Footer start here */}
             <div className="row gy-5 align-items-center">
               <div className="col-lg-4 order-lg-1 order-3">
                 <div className="tl-footer-widget tl-4-footer-widget">
                   <p className="tl-4-copyright-txt m-0 text-center text-lg-start">
-                    ©2024 Tollense University
+                  Copyright © 2024 The President and Fellows of Tollance College
                   </p>
                 </div>
               </div>
@@ -31,29 +30,11 @@ export const Footer = () => {
               <div className="col-lg-4 order-2 order-lg-3">
                 <div className="tl-footer-widget tl-4-footer-widget">
                   <ul className="tl-footer-links tl-4-footer-links flex-row justify-content-center justify-content-lg-end">
-                    {/* <li>
+                    <li>
                       <Link to="/" role="button">
                         Home
                       </Link>
-                    </li> */}
-
-                    <li>
-                      <Link to="/research" role="button">
-                        Research
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link to="/study" role="button">
-                        Study
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link to="/transfer" role="button">
-                        Transfer
-                      </Link>
-                    </li>
+                    </li> 
                     <li>
                       <Link to="/admission" role="button">
                         Admission
@@ -68,7 +49,6 @@ export const Footer = () => {
                 </div>
               </div>
             </div>
-            {/* New Required Footer end here */}
           </div>
         </div>
       </footer>
